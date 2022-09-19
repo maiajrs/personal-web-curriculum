@@ -29,6 +29,12 @@
   line-height: 2.5rem;
 }
 
+.footerContact ul li a:hover {
+  background: -webkit-linear-gradient(#2f6a01, var(--gr1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .footerContact ul li img {
   margin-right: 1rem;
 }
