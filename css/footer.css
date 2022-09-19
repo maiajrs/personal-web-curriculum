@@ -1,0 +1,49 @@
+.footerContainer {
+  background-color: var(--bk);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  padding: 6rem;
+  color: var(--c6);
+}
+
+.footerMessage p {
+  padding-top: 2rem;
+}
+
+.footerMessage p + p {
+  padding-top: 6rem;
+}
+
+.footerContact ul li {
+  color: var(--wt);
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.footerContact ul li a {
+  color: var(--wt);
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.footerContact ul li img {
+  margin-right: 0.875rem;
+}
+
+.footerContact ul a {
+  color: var(--wt);
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.footerContact ul li + li {
+  margin-top: 1rem;
+}
+
+.footerContact ul li img {
+  display: inline-block;
+}

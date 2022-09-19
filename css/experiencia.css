@@ -1,0 +1,95 @@
+.experienciaContainer {
+  background-color: #FFFFFF;
+  margin-top: 2.75rem;
+  margin-bottom: 2rem;
+  display: grid; 
+  grid-template-columns: 1fr 2fr;
+  padding: 0 2rem;
+  gap: 6rem;
+}
+
+.experiencicaTitle {
+  margin-top: 6rem;
+}
+
+.experiencicaTitle h1 {
+  color: var(--c3);
+  text-transform: uppercase;
+  font-size: 9rem;
+  line-height: 100%;
+  font-weight: bold;
+}
+
+.experienciaDetalhes {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: .875rem;
+  background-color: var(--c2);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1.25rem;
+}
+
+.projectDescription span {
+  font-weight: bold;
+  font-size: 1.125rem
+  line-height: 1.125rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  color: var(--c13);
+}
+
+.projectDescription span > span {
+  font-weight: normal;
+  font-size: 0.875rem;
+  display: inline-block;
+  margin-left: 1.5rem;
+  color: var(--c6);
+}
+
+.projectDescription span::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 20px;
+  top: 15px;
+  left: -4px;
+  background: linear-gradient(180deg, var(--gr1) 0%, var(--gr2) 100%);
+}
+
+.projectDescription p {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: var(--c10);
+  text-align: left;
+  padding-top: .5rem;
+}
+
+.projectLanguages span {
+  font-weight: bold;
+  font-size: 1.125rem
+  line-height: 1.125rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  color: var(--c13);
+  margin-left: 3rem;
+}
+
+.projectLanguages div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.projectLanguages div p {
+  display: inline-block;
+  font-size: 0.875rem;
+  background-color: var(--wt);
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: var(--c13);
+  margin: 0.25rem;
+}

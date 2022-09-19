@@ -1,0 +1,53 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  margin-top: 4rem;
+  padding: 0 2rem;
+}
+
+.foto-perfil {
+  width: 360px;
+  height: 520px;
+}
+
+.area-atuação {
+  position: relative;
+  padding-top: 5rem;
+}
+
+.deco-principal {
+  position: absolute;
+  top: 55px;
+  left: -40px;
+}
+
+.back-end {
+  position: relative;
+}
+.back-end p:last-child {
+  padding-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.area-atuação span {
+  display: block;
+  font-weight: bold;
+  font-size: 4.5rem; 
+  color: var(--c13);
+}
+
+.area-atuação span:nth-child(3) {
+  text-align: right;
+  padding-right: 4rem;
+}
+
+.area-atuação p {
+  padding: 2rem 1rem 0rem 0rem;
+  color: var(--c10);
+  font-size: 1.5rem;
+}
+
+.area-atuação p img {
+  display: inline-block;
+}

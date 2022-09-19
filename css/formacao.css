@@ -1,0 +1,185 @@
+.formacao {
+  background-color: var(--c13);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  margin: 4rem 0px;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.formacaoContainer {
+  position: relative;
+}
+
+.formacaoContainer > span img {
+  position: absolute;
+  bottom: -60px;
+  left: 50px;
+}
+
+.formacao .formacaoTitle {
+  margin-top: 12rem;
+  max-width: 393px;
+}
+
+.formacao .formacaoTitle h1 {
+  font-size: 9rem;
+  font-weight: bold;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--bk);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
+
+.formacaoDetalhes {
+  margin-top: 5rem;
+}
+
+.formacaoDetalhes > p {
+  color: var(--c6);
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-right: 5rem;
+}
+
+.formacaoCards {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.formacaoCards div {
+  width: 190px;
+  height: 180px;
+  border-radius: 5px;
+  background-color: var(--c15);
+  padding: 1rem;
+  position: relative;
+}
+
+.formacaoCards div::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 20px;
+  top: 60px;
+  left: -4px;
+  background: linear-gradient(180deg, var(--gr1) 0%, var(--gr2) 100%);
+
+}
+
+.formacaoCards div p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: normal;
+  color: var(--c6);
+  text-transform: uppercase;
+}
+
+.formacaoCards div h2 {
+  color: var(--wt);
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+}
+
+.formacaoCards div span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  color: var(--c6);
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+  padding: 0px 1rem 1rem 1rem;
+}
+
+.formacaoCursos {
+  margin-top: 3.75rem;
+  position: relative;
+}
+
+.formacaoCursos > span {
+  position: absolute;
+  top: 0px;
+  left: -44px;
+}
+
+
+.formacaoCursos h1 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--c7);
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+.cursos {
+  margin: 1.25rem 2rem 1.25rem 0;
+  color: var(--wt);
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+
+.cursos li + li {
+  margin-top: 1.125rem;
+}
+
+.cursos li span {
+  color: var(--c6);
+}
+
+.cursos li::nth-child(1) {
+  margin-right: 4rem;
+}
+
+.cursos li p {
+  display: inline-block;
+}
+
+.cursos li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cursosIdiomas {
+  position: relative;
+  margin: 3rem 0px 3rem 0px;
+}
+
+.cursosIdiomas h1 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--c7);
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+.cursosIdiomas > span {
+  position: absolute;
+  top: -4px;
+  left: -44px;
+}
+
+.idiomas {
+  margin: 1.25rem 2rem 1.25rem 0;
+  color: var(--wt);
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+
+.idiomas li + li {
+  margin-top: 1.125rem;
+}
+
+.idiomas li span {
+  color: var(--c6);
+}
