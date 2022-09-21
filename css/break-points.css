@@ -1,0 +1,118 @@
+@media(max-width: 1100px) {
+  .mainContainer {
+    max-width: 940px;
+  }
+
+  .area-atuação {
+    margin-left: 1rem; 
+  }
+
+  .area-atuação span {
+    font-size: 3rem;
+  }
+
+  .area-atuação span:nth-child(3) {
+    padding-right: 13rem;
+  }
+
+  .foto-perfil {
+    width: 260px;
+    height: 320px;
+  }
+
+  .intro {
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .deco-principal {
+    max-width: 6rem;
+    max-height: 6rem;
+    top: 60px;
+    left: -30 px;
+  }
+
+  .formacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 0;
+  }
+
+  .formacao .formacaoTitle {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+
+  .formacao .formacaoTitle h1 {
+    display: inline;
+    font-size: 5rem;
+  }
+
+  .formacaoDetalhes {
+    margin-top: 0rem;
+  }
+
+  .formacaoCards {
+    margin-top: 1rem;
+    margin-right: 0rem;
+  }
+
+  .cursos {
+    margin-right: 0rem;
+  }
+
+  .formacaoContainer > span img {
+    max-width: 100px;
+    max-height: 100px;
+    bottom: -50px;
+  }
+
+  .experienciaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experienciaContainer {
+    margin-top: 0rem;
+    gap: 1rem;
+  }
+  .experiencicaTitle {
+    margin-top: 2rem; 
+  }
+
+  .experiencicaTitle h1 {
+    display: inline;
+    font-size: 5rem;
+  }
+
+  .experienciaTecs {
+    max-width: 602px;
+  }
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerMessage {
+    max-width: 600px;
+    position: relative;
+  }
+
+  .footerMessage p:nth-child(2) {
+    position: absolute;
+    bottom: -20rem;
+  }
+}
+
+@media(max-width: 800px) {
+
+}

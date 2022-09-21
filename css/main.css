@@ -3,6 +3,7 @@
 @import url(./formacao.css);
 @import url(./experiencia.css);
 @import url(./footer.css);
+@import url(./break-points.css);
 
 * {
   margin: 0;
@@ -73,31 +74,5 @@ body {
   background-color: var(--wt);
 }
 
-@media(max-width: 1050px) {
-  .mainContainer {
-    max-width: 940px;
-  }
 
-  .area-atuação span {
-    font-size: 3rem;
-  }
-
-  .foto-perfil {
-    width: 260px;
-    height: 320px;
-  }
-
-  .intro {
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .deco-principal {
-    max-width: 4rem;
-    max-height: 4rem;
-    top: -10px;
-    left: -20px;
-  }
-  
-}
 
