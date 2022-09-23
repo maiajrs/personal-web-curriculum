@@ -113,6 +113,71 @@
   }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 810px) {
+  .area-atuação span:nth-child(3) {
+    padding-right: 2rem;
+    text-align: left;
+  }
+}
 
+@media(max-width: 767px) {
+
+  .mainContainer header nav ul li {
+    margin: 1rem;
+  }
+
+  .mainContainer header nav ul li a {
+    padding: 1rem;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formacao .formacaoTitle h1 {
+    font-size: 3rem;
+  }
+
+  .mainContainer header {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .formacaoContainer > span img {
+    width: 70px;
+    height: 70px;
+    bottom: -30px;
+  }
+
+  .formacaoCards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .formacaoCards div {
+    width: 100%;
+  }
+
+  .formacaoCursos, .cursosIdiomas {
+    margin-left: 2rem;
+  }
+
+  .formacaoCursos .cursos p, span {
+    font-size: 0.875rem;
+  }
+
+  .formacaoCursos li > span {
+    margin-left: 1rem;
+  }
+
+
+  .footerContainer {
+    padding: 3rem;
+  }
+
+  .footerContact ul li a {
+    font-size: 1rem;
+  }
 }
