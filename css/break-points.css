@@ -121,7 +121,7 @@
 }
 
 @media(max-width: 767px) {
-
+  
   .mainContainer header nav ul li {
     margin: 1rem;
   }
@@ -129,19 +129,20 @@
   .mainContainer header nav ul li a {
     padding: 1rem;
   }
-
+  
   .intro {
     display: flex;
     flex-direction: column;
   }
-
+  
   .formacao .formacaoTitle h1 {
     font-size: 3rem;
   }
-
+  
   .mainContainer header {
     flex-direction: column;
     padding-top: 2rem;
+    gap: 1rem;
   }
 
   .formacaoContainer > span img {
@@ -172,12 +173,57 @@
     margin-left: 1rem;
   }
 
+  .experiencicaTitle {
+    margin-top: 3rem;
+  }
+
+  .experiencicaTitle h1 {
+    font-size: 3rem;
+  }
+
+  .experienciaDetalhes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .projectLanguages span {
+    margin-left: 0rem;
+  }
+
+  .projectLanguages div {
+    justify-content: flex-start;
+  }
+
+  .projectLanguages div p + p {
+    margin-left: 0;
+  }
+
+  .projectLanguages div p:first-child {
+    margin-left: 0rem;
+  }
 
   .footerContainer {
     padding: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    gap: 1rem;
+  }
+
+  .footerMessage p {
+    padding-top: 0rem;
+  }
+  
+  .footerContact {
+    align-self: start;
   }
 
   .footerContact ul li a {
     font-size: 1rem;
+
+  }
+
+  .footerMessage p:nth-child(2) {
+    bottom: -18rem;
   }
 }
