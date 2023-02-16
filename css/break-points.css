@@ -94,7 +94,7 @@
     max-width: 602px;
   }
 
-  .footerContainer {
+  .footContent {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -102,15 +102,6 @@
     align-items: center;
   }
 
-  .footerMessage {
-    max-width: 600px;
-    position: relative;
-  }
-
-  .footerMessage p:nth-child(2) {
-    position: absolute;
-    bottom: -20rem;
-  }
 }
 
 @media(max-width: 810px) {
@@ -215,10 +206,6 @@
     padding-top: 0rem;
   }
   
-  .footerContact {
-    align-self: start;
-  }
-
   .footerContact ul li a {
     font-size: 1rem;
 
@@ -226,5 +213,9 @@
 
   .footerMessage p:nth-child(2) {
     bottom: -18rem;
+  }
+
+  .footerCopy {
+    margin-top: 2rem;
   }
 }

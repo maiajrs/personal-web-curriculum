@@ -1,18 +1,24 @@
 .footerContainer {
   background-color: var(--bk);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
   padding: 6rem;
   color: var(--c6);
+  
+}
+
+.footContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .footerMessage p {
   padding-top: 2rem;
 }
 
-.footerMessage p + p {
-  padding-top: 6rem;
+.footerCopy p {
+  text-align: center;
 }
 
 .footerContact ul li {
