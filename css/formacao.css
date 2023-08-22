@@ -101,6 +101,12 @@
   padding: 0px 1rem 1rem 1rem;
 }
 
+
+.formacaoCards div small {
+  color: var(--wt);
+  font-size: 0.750rem;
+}
+
 .formacaoCursos {
   margin-top: 3.75rem;
   position: relative;
