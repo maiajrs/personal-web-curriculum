@@ -1,192 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,700;1,700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,700;1,700&family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet">
-  <title>Personal</title>
-  <link rel="stylesheet" href="./css/main.css">
-</head>
+  <body>
+    <main class="mainContainer">
+      <header>
+        <a href="#home" id="home">
+          <img
+            src="./assets/svg/maiaJr.svg"
+            alt="essa é a logo do site. a log tem o meu nome. meu nome é maia jr."
+          />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
 
-<body>
-  <main class="mainContainer">
-    <header>
-      <a href="#home" id="home">
-        <img src="./assets/svg/maiaJr.svg" alt="essa é a logo do site. a log tem o meu nome. meu nome é maia jr.">
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="intro">
-      <div class="foto-perfil">
-        <img src="./assets/img/perfil.png" alt="minha foto do perfil">
-      </div>
-      <div class="area-atuação">
-        <div class="deco-principal">
-          <img src="./assets/svg/deco-principal.svg" alt="2 trações verdes que servem como decoração do site">
+      <section class="intro">
+        <div class="foto-perfil">
+          <img src="./assets/img/perfil.png" alt="minha foto do perfil" />
         </div>
-        <div class="back-end">
-          <span>Desenvolvedor</span>
-          <span>Back End &</span>
-          <span>Front End</span>
-          <p>Localizado em Fortaleza =) <img src="./assets/svg/beach.png" alt=""></p>
-          <p>Disponível para remoto</p>
+        <div class="area-atuação">
+          <div class="deco-principal">
+            <img
+              src="./assets/svg/deco-principal.svg"
+              alt="2 trações verdes que servem como decoração do site"
+            />
+          </div>
+          <div class="back-end">
+            <span>Desenvolvedor</span>
+            <span>Back End &</span>
+            <span>Front End</span>
+            <p>
+              Localizado em Fortaleza =)
+              <img src="./assets/svg/beach.png" alt="" />
+            </p>
+            <p>Disponível para remoto</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="formacaoContainer" id="formacao">
-      <div class="formacao">
-        <div class="formacaoTitle">
-          <h1>Form</h1>
-          <h1>ação</h1>
-        </div>
-        <div class="formacaoDetalhes">
-          <div class="formacaoCards">
-            <div>
-              <p>bacharel</p>
-              <h2>Sistemas de Informação</h2>
-              <span>Estácio - 2019/23</span>
+      <section class="formacaoContainer" id="formacao">
+        <div class="formacao">
+          <div class="formacaoTitle">
+            <h1>Form</h1>
+            <h1>ação</h1>
+          </div>
+          <div class="formacaoDetalhes">
+            <div class="formacaoCards">
+              <div>
+                <p>bacharel</p>
+                <h2>Sistemas de Informação</h2>
+                <span>Estácio - 2019/23</span>
+              </div>
+              <div>
+                <p>Pós Graduação</p>
+                <h2>Ciência de Dados</h2>
+                <span>Uninassau 2024</span>
+              </div>
+              <div>
+                <p>Especialização</p>
+                <h2>Back-end</h2>
+                <small>Front-end</small>
+                <span>complementar</span>
+              </div>
             </div>
-            <div>
-              <p>Pós Graduação</p>
-              <h2>Ciência de Dados</h2>
-              <span>Uninassau 2024</span>
+            <div class="formacaoCursos">
+              <span
+                ><img
+                  src="././assets/svg/book.svg"
+                  alt="um pequeno livro desenhado que serve como dica"
+              /></span>
+              <h1>cursos intensivos</h1>
+              <ul class="cursos">
+                <li>
+                  <p>Ruby on Rails na Prática<span> - Jackson Pires</span></p>
+                  <span class="cursosDetalhes"> 80h</span>
+                </li>
+                <li>
+                  <p>NodeJS com clean architecture<span> - Rocketseat</span></p>
+                  <span> 72h</span>
+                </li>
+                <li>
+                  <p>ReactJS Avançado<span> - Rocketseat</span></p>
+                  <span>56h</span>
+                </li>
+                <li>
+                  <p>UX Design & UI Design<span> - Origamid</span></p>
+                  <span>36h</span>
+                </li>
+                <li>
+                  <p>Front End para Iniciantes<span> - Origamid</span></p>
+                  <span>28h</span>
+                </li>
+              </ul>
             </div>
-            <div>
-              <p>Especialização</p>
-              <h2>Back-end</h2>
-              <small>Front-end</small>
-              <span>complementar</span>
-            </div>
-          </div>
-          <div class="formacaoCursos">
-            <span><img src="././assets/svg/book.svg" alt="um pequeno livro desenhado que serve como dica"></span>
-            <h1>cursos intensivos</h1>
-            <ul class="cursos">
-              <li>
-                <p>NodeJS com clean architecture<span> - Rocketseat</span></p> <span class="cursosDetalhes"> 72h</span>
-              </li>
-              <li>
-                <p>ReactJS Avançado<span> - Rocketseat</span></p> <span>56h</span>
-              </li>
-              <li>
-                <p>UX Design & UI Design<span> - Origamid</span></p> <span>36h</span>
-              </li>
-              <li>
-                <p>Front End para Iniciantes<span> - Origamid</span></p> <span>28h</span>
-              </li>
-            </ul>
-          </div>
-          <div class="cursosIdiomas">
-            <span><img src="./assets/svg/idiomas.svg" alt="um pequeno desenho que ilustra a palavra idioma"></span>
-            <h1>idiomas</h1>
-            <ul class="idiomas">
-              <li>Inglês<span> / Intermediário - Aulas regulares no Cambly</span></li>
-              <li>Espanhol<span> / Básico</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <span><img src="./assets/svg/deco-principal.svg" alt="2 trações verdes que servem como decoração do site"></span>
-    </section>
-    <section class="experienciaContainer" id="experiencia">
-      <div class="experiencicaTitle">
-        <h1>expe</h1>
-        <h1>riên</h1>
-        <h1>cia</h1>
-      </div>
-      <div class="experienciaTecs">
-        <div class="experienciaDetalhes">
-          <div class="projectDescription">
-            <span>Backend Developer na Prefeitura de Fortaleza (concursado)<span>2023</span></span>
-            <p>Em 2023, como Desenvolvedor Backend, especializei-me na criação de APIs robustas com Ruby on Rails, um framework que prioriza a agilidade de desenvolvimento. Empreguei Devise para autenticação, BluePrint para estruturar arquiteturas e RSpec para garantir a qualidade através de testes. Colaborei estreitamente com a equipe frontend para integrar soluções.</p>
-          </div>
-          <div class="projectLanguages">
-            <div>
-              <p>Ruby</p>
-              <p>Ruby on Rails</p>
-              <p>Devise</p>
-              <p>Blueprint </p>
-              <p>Docker</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="experienciaDetalhes">
-          <div class="projectDescription">
-            <span>Saltfix Tecnology (contrato por projeto)<span>2023</span></span>
-            <p>Em 2023, na Saltfix Tecnology, desenvolvi APIs robustas com NestJS e Typescript, utilizando TypeORM para gestão de dados e Jest para testes confiáveis. Integrei soluções à AWS e documentei as APIs com Swagger para maior transparência.</p>
-          </div>
-          <div class="projectLanguages">
-            <div>
-              <p>NestJS</p>
-              <p>TypeORM</p>
-              <p>Typescript</p>
-              <p>AWS-SDK</p>
-              <p>Swagger</p>
-              <p>Jest</p>
+            <div class="cursosIdiomas">
+              <span
+                ><img
+                  src="./assets/svg/idiomas.svg"
+                  alt="um pequeno desenho que ilustra a palavra idioma"
+              /></span>
+              <h1>idiomas</h1>
+              <ul class="idiomas">
+                <li>
+                  Inglês<span>
+                    / Intermediário - Aulas regulares no Cambly</span
+                  >
+                </li>
+                <li>Espanhol<span> / Básico</span></li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="experienciaDetalhes">
-          <div class="projectDescription">
-            <span>Luvpet<span>2022</span></span>
-            <p>Uma rede social para animais. Com o front-end desenvolvido em React e o Back-end desenvolvido em NodeJS
+        <span
+          ><img
+            src="./assets/svg/deco-principal.svg"
+            alt="2 trações verdes que servem como decoração do site"
+        /></span>
+      </section>
+      <section class="experienciaContainer" id="experiencia">
+        <div class="experiencicaTitle">
+          <h1>expe</h1>
+          <h1>riên</h1>
+          <h1>cia</h1>
+        </div>
+        <div class="experienciaTecs">
+          <div class="experienciaDetalhes">
+            <div class="projectDescription">
+              <span
+                >Backend Developer na Prefeitura de Fortaleza (concursado)<span
+                  >2023</span
+                ></span
+              >
+              <p>
+                Em 2023, como Desenvolvedor Backend, especializei-me na criação
+                de APIs robustas com Ruby on Rails, um framework que prioriza a
+                agilidade de desenvolvimento. Empreguei Devise para
+                autenticação, BluePrint para estruturar arquiteturas e RSpec
+                para garantir a qualidade através de testes. Colaborei
+                estreitamente com a equipe frontend para integrar soluções.
+              </p>
+            </div>
+            <div class="projectLanguages">
+              <div>
+                <p>Ruby</p>
+                <p>Ruby on Rails</p>
+                <p>Devise</p>
+                <p>Blueprint</p>
+                <p>Docker</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="experienciaDetalhes">
+            <div class="projectDescription">
+              <span
+                >Saltfix Tecnology (contrato por projeto)<span>2023</span></span
+              >
+              <p>
+                Em 2023, na Saltfix Tecnology, desenvolvi APIs robustas com
+                NestJS e Typescript, utilizando TypeORM para gestão de dados e
+                Jest para testes confiáveis. Integrei soluções à AWS e
+                documentei as APIs com Swagger para maior transparência.
+              </p>
+            </div>
+            <div class="projectLanguages">
+              <div>
+                <p>NestJS</p>
+                <p>TypeORM</p>
+                <p>Typescript</p>
+                <p>AWS-SDK</p>
+                <p>Swagger</p>
+                <p>Jest</p>
+              </div>
+            </div>
+          </div>
+          <div class="experienciaDetalhes">
+            <div class="projectDescription">
+              <span>Luvpet<span>2022</span></span>
+              <p>
+                Uma rede social para animais. Com o front-end desenvolvido em
+                React e o Back-end desenvolvido em NodeJS
+              </p>
+            </div>
+            <div class="projectLanguages">
+              <div>
+                <p>NodeJS</p>
+                <p>Typescript</p>
+                <p>Express</p>
+                <p>React</p>
+                <p>Redux</p>
+                <p>Sass</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footerContainer" id="contato">
+        <div class="footContent">
+          <div class="footerMessage">
+            <p>
+              Estou disponível para novos projetos no momento. Entre em contato
+              comigo e marcamos uma conversa 👋
             </p>
           </div>
-          <div class="projectLanguages">
-            <div>
-              <p>NodeJS</p>
-              <p>Typescript</p>
-              <p>Express</p>
-              <p>React</p>
-              <p>Redux</p>
-              <p>Sass</p>
-            </div>
+          <div class="footerContact">
+            <ul>
+              <li>
+                <a href="mailto:jr.maiafs1@gamil.com"
+                  ><img src="./assets/svg/email.svg" alt="ogo do whatsapp" />
+                  jr.maiafs1@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="https://wa.me/+5585981943819" target="_blank"
+                  ><img
+                    src="./assets/svg/whats.svg"
+                    alt="ogo do whatsapp"
+                  />+5585981943819
+                </a>
+              </li>
+              <li>
+                <a href="tel:+5585981943819"
+                  ><img
+                    src="./assets/svg/phone.svg"
+                    alt="ogo do whatsapp"
+                  />+5585981943819</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/maiajrs" target="_blank"
+                  ><img src="./assets/svg/github.svg" alt="logo do github" />
+                  Github</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-
-      </div>
-
-    </section>
-    <section class="footerContainer" id="contato">
-      <div class="footContent">
-        <div class="footerMessage">
-          <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
+        <div class="footerCopy">
+          <p>Alguns direitos reservados.</p>
         </div>
-        <div class="footerContact">
-          <ul>
-            <li><a href="mailto:jr.maiafs1@gamil.com"><img src="./assets/svg/email.svg" alt="ogo do whatsapp">
-                jr.maiafs1@gmail.com</a></li>
-            <li><a href="https://wa.me/+5585981943819" target="_blank"><img src="./assets/svg/whats.svg"
-                  alt="ogo do whatsapp">+5585981943819 </a></li>
-            <li><a href="tel:+5585981943819"><img src="./assets/svg/phone.svg" alt="ogo do whatsapp">+5585981943819</a>
-            </li>
-            <li><a href="https://github.com/maiajrs" target="_blank"><img src="./assets/svg/github.svg"
-                  alt="logo do github"> Github</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footerCopy">
-        <p>Alguns direitos reservados.</p>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <script src="./js/script.js"></script>
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>
